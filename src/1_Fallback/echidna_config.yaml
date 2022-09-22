@@ -1,0 +1,3 @@
+deployer: "0x10000"
+sender: ["0x20000"]
+balanceContract: 1000
