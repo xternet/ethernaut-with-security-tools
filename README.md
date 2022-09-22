@@ -1,19 +1,17 @@
-# ethernaut-foundry-echidna-manticore-solutions
+# Ethernaut solved manually & with security tools.
 
 ~/echidna-test ./src/1_Fallback/EchidnaFallback.sol --config ./src/1_Fallback/config.yaml
 forge test --match-test testExploit --match-contract FallbackTest
 
-## Ethernaut puzzles solved & tested with foundry.
+## Ethernaut solved & tested with foundry.
 
-**Ethernaut**
+<br>**In use**
+- [Ethernaut](https://ethernaut.openzeppelin.com/)
+- [Foundry](https://github.com/foundry-rs/foundry)
+- [Echidna](https://github.com/crytic/echidna)
+- [Manticore](https://github.com/trailofbits/manticore)
 
-https://ethernaut.openzeppelin.com/
-
-**Foundry**
-
-https://github.com/foundry-rs/foundry
-
-## Setup 
+## Setup
 
 @0xEval has written an excellent run through of how the repo is configured and how to get setup on it.
 
