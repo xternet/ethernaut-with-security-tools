@@ -24,7 +24,7 @@ slither src/1_Fallback/Fallback.sol
 ```
 ~/echidna-test ./src/1_Fallback/EchidnaFallback.sol --config ./src/1_Fallback/echidna_config.yaml
 ```
-- <i>(Manticore) </i><b>Log list of exploit TX series</b> (attacker took ownership and executed withdraw) <b>from pre-computed results</b>:
+- <i>(Manticore) </i><b>Log list of exploit TX series</b> (attacker executed withdraw) <b>from pre-computed results</b>:
 ```
 grep withdraw src/1_Fallback/mcore_cli_result/*.tx
 ```
