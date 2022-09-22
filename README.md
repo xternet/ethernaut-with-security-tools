@@ -16,7 +16,7 @@ forge test
 ```
 forge test --match-contract Fallback
 ```
-- <i>(Foundry) </i><b>Run single manual exploit</b>:
+- <i>(Slither) </i><b>Run single manual exploit</b>:
 ```
 slither src/1_Fallback/Fallback.sol
 ```
